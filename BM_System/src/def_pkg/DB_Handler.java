@@ -11,25 +11,26 @@ import java.util.*;
 import com.itextpdf.html2pdf.HtmlConverter;
 
 public class DB_Handler {
-	
-	private String url = "jdbc:mysql://localhost:3307/bank_schema";       
-	private String username = "root";
-	private String password = "sunshine";
+	private static DB_Handler dataBaseHandler;
 	private Connection conn;
 	
-	
-	
-	public DB_Handler() {    
-        try {
-            conn = DriverManager.getConnection(url, username, password);
-            System.out.println("Connection established successfully!");
-        }
-        catch (SQLException e) {
-            throw new IllegalStateException("Unable to connect to the database. " + e.getMessage());
-        } 
+	private DB_Handler() {    
+
 	}
 	
+	public DB_Handler getDataBaseHandler() {
+		if(this.dataBaseHandler == null) {
+			dataBaseHandler = new DB_Handler();
+		}
+		return dataBaseHandler;
+	}
 	
+	public boolean createConnection() throws SQLException{
+		if(conn == null) {
+			conn = DriverManager.getConnection("","","");
+		}
+		return true;
+	}
 	
 	public Login_Account signIn( String username, String password ) {
 		Login_Account user = new Login_Account();
