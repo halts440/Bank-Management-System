@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="libs/barcodes-7.1.9.jar"/>
+	<classpathentry kind="lib" path="libs/font-asian-7.1.9.jar"/>
+	<classpathentry kind="lib" path="libs/forms-7.1.9.jar"/>
+	<classpathentry kind="lib" path="libs/html2pdf-2.1.6.jar"/>
+	<classpathentry kind="lib" path="libs/hyph-7.1.9.jar"/>
+	<classpathentry kind="lib" path="libs/io-7.1.9.jar"/>
+	<classpathentry kind="lib" path="libs/kernel-7.1.9.jar"/>
+	<classpathentry kind="lib" path="libs/layout-7.1.9.jar"/>
+	<classpathentry kind="lib" path="libs/mysql-connector-java-8.0.22.jar"/>
+	<classpathentry kind="lib" path="libs/pdfa-7.1.9.jar"/>
+	<classpathentry kind="lib" path="libs/pdftest-7.1.9.jar"/>
+	<classpathentry kind="lib" path="libs/sign-7.1.9.jar"/>
+	<classpathentry kind="lib" path="libs/slf4j-api-1.7.2.jar"/>
+	<classpathentry kind="lib" path="libs/slf4j-simple-1.7.2.jar"/>
+	<classpathentry kind="lib" path="libs/styled-xml-parser-7.1.9.jar"/>
+	<classpathentry kind="lib" path="libs/svg-7.1.9.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
