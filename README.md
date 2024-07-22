@@ -1,5 +1,5 @@
 # Bank-Management-System
-Bank Management System in Java Swing bro bro yeah
+Bank Management System in Java Swing
 
 
 #### Tool and Technologies Used:
