@@ -4,7 +4,7 @@ import java.util.List;
 
 public class Accountant {
 
-	public String name;
+	private String name;
 	
 	public Accountant( ) {
 		this.name = "";
@@ -16,6 +16,9 @@ public class Accountant {
 	
 	public String getName() {
 		return this.name;
+	}
+	public void setName(String name) {
+		this.name = name;
 	}
 	
 	// Search Account function
